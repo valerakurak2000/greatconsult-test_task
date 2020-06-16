@@ -632,8 +632,9 @@ align-items: center;
 }
 
 @media (max-width: 480px) {
-    .slider__img {
-        width: 432px;
+    .slider__img,
+    .form__content {
+        width: 431px;
     }
     .F5__window--first,
     .F5__window--second,
@@ -649,14 +650,14 @@ align-items: center;
         padding-left: 0;
     }
     .form__content {
-        margin-left: 35px;
+        margin-left: 0;
     }
     .form__content--tel,
     .form__content--submit {
         margin-left: 0;
     }
     .F5__calculator {
-        background-size:432px 960px;
+        background-size:431px 960px;
         height: 960px;
     }
     .F5__calculator--left-bar,
