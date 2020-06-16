@@ -669,6 +669,7 @@ align-items: center;
     }
     .bottom__bar--phone-number {
         font-size: 16px;
+        padding-left: 47px;
     }
     .F1_header__contacts-number {
         font-size: 22px;
@@ -689,8 +690,8 @@ align-items: center;
         width: 220px;
     }
     .F5__calculator {
-        background-size: 370px 960px;
-        height: 960px;
+        background-size: 370px 1090px;
+        height: 1090px;
     }
     .F5__calculator--bottom-bar {
         display: flex;
