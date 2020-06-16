@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test</title>
+</head>
+<body>
+    <header class="F1_header">
+
+        <div class="container">
+
+            <div class="F1_header__content">
+                <a class="F1_header__link" href="index.html">
+                <img class="F1_header__img" src="img/great-Consult-group.png" alt="Great Consult Group логотип">
+                </a>
+            <a class="F1_header__contacts" href="tel:+74997777777">
+            <p class="F1_header__contacts-number">+7(499)777-77-77</p>
+            <p class="F1_header__contacts-number">+7(499)777-77-77</p>
+        </a>
+
+    </div>
+    </div>
+    </header>
+
+    <main>
+
+        <div class="F2">
+            <div class="container">
+                <div class="form">
+                    <p class="form__title">Форма с кнопкой</p>
+                    <form action="send.php" method="POST" class="form__content">
+                        <p class="form__content--title">Оставь телефон и получи что-то офигенное</p>
+                        <input class="form__content--tel" name="user_phone" type="tel" id="phone" placeholder="Введите номер" class="form-control">
+                        <input class="form__content--submit" type="submit" value="Получить">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="F3">
+            <div class="container">
+                <div class="slider">
+                    <p class="slider__title">Тут у нас слайдер</p>
+                    <p class="slider__img--center"><img class="slider__img" src="img/slider_1.jpg" alt="Первый слайдер"></p>
+                    <div class="slider__ellipse">
+                    <img class="slider__ellipse--first" src="img/slider_ellipse-active.jpg" alt="">
+                    <img class="slider__ellipse--second" src="img/slider_ellipse.jpg" alt="">
+                    <img class="slider__ellipse--third" src="img/slider_ellipse.jpg" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="F4">
+            <div class="container">
+                <div class="F4__title">
+                    <h1 class="F4__title--text">просто текстовый блок</h1>
+                </div>
+                <div class="F4__content">
+                    <p class="F4__content--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere quis arcu sit amet commodo. Nullam ac dui lacus. Nulla dapibus interdum interdum. Curabitur ut diam nisl. Vivamus libero lacus, viverra at dolor sit amet, commodo faucibus orci. Vivamus laoreet ornare nisi, id pharetra tellus ullamcorper volutpat. Sed lacinia placerat accumsan. Praesent pharetra ipsum scelerisque, sodales urna ut, placerat nulla. Duis nunc urna, semper non arcu ut, sagittis dapibus lorem. Nunc nec urna id velit sodales sodales. Sed porttitor quam eget mollis consequat. Curabitur aliquet nec dui eget aliquet. Nulla in risus ante.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="F5">
+            <div class="container">
+                    <div class="F5__title-center">
+                    <h2 class="F5__title">Калькулятор</h2>
+                    <span class="F5__title--span">(стоимость пользователь узнает по телефону)</span>
+                </div>
+                    <div class="F5__windows">
+                        <div class="F5__window--first">
+                            <img class="F5__window--img" src="img/window_1.jpg" alt="Одностворчатое окно">
+                            <p class="F5__window--description">Одностворчатое</p>
+                        </div>
+                        <div class="F5__window--second">
+                            <img class="F5__window--img" src="img/window_2.jpg" alt="Двухстворчатое окно">
+                            <p class="F5__window--description">Двухстворчатое</p>
+                        </div>
+                        <div class="F5__window--third">
+                            <img class="F5__window--img" src="img/window_3.jpg" alt="Трехстворчатое окно">
+                            <p class="F5__window--description">Трехстворчатое</p>
+                        </div>
+                        <div class="F5__window--fourth">
+                            <img class="F5__window--img" src="img/window_4.jpg" alt="Балконный блок">
+                            <p class="F5__window--description">Балконный блок</p>
+                        </div>
+                        <div class="F5__window--fifth">
+                            <img class="F5__window--img" src="img/window_5.jpg" alt="Остекление балкона">
+                            <p class="F5__window--description">Остекление балкона</p>
+                        </div>
+                </div>
+
+                <div class="F5__calculator">
+
+                        <div class="F5__calculator--left-bar">
+                        <p class="F5__calculator--width">ширина</p>
+                        <div class="F5__calculator--window">
+                            <p class="F5__calculator--height">высота</p>
+                        <img class="F5__calculator--img" src="img/1-calculator.jpg" alt="Одностворчатое окно">
+                        </div>
+                        <div class="F5__calculator--values">
+                            <p class="values__width">ширина, см</p>
+                            <p class="values__height">высота, см</p>
+                        </div>
+                        <form class="F5__calculator--inputs" action="sendcalculator.php" method="POST">
+                        <input required name="width" class="values__width--input" type="text" value="120">
+                        <p class="values__x">x</p>
+                        <input required name="height" class="values__height--input" type="text" value="120">
+
+                    </div>
+
+                    <div class="F5__calculator--right-bar">
+                        <p class="right-bar__window-name">Одностворчатое окно KBE</p>
+                        <p class="right-bar__window-criterion">1. Критерий выбора</p>
+
+                        <div class="right-bar__window-inputs">
+                        <p class="right-bar__window-input"><input type="radio" name="choice" value="пункт выбора 1" id=""> пункт выбора 1</p>
+                        <p class="right-bar__window-input"><input type="radio" name="choice" value="пункт выбора 2" id=""> пункт выбора 2</p>
+                        <p class="right-bar__window-input"><input type="radio" name="choice" value="пункт выбора 3" id=""> пункт выбора 3</p>
+                    </div>
+
+                    <div class="right-bar__window-choice">
+                        <p class="right-bar__window-choice--title">2. Выберите открывание створки</p>
+                        <div>
+                            <select name="select" class="window__open--form window__choice">
+                            <option>Не открывается</p>
+                            <option>Открывается</p>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="F5__calculator--bottom-bar">
+                    <input required type="tel" class="bottom__bar--phone-number form-control" name="calculator-phone" id="calculator-phone" placeholder="Введите номер">
+                    <input type="submit" class="bottom__bar--submit" value="Рассчитать">
+                </div>
+            </form>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+        <p class="footer__content">просто скромный футер</p>
+    </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+</body>
+</html>
