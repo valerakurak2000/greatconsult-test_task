@@ -12,7 +12,6 @@ $height = $_POST['height'];
 $choice = $_POST['choice'];
 $phone = $_POST['calculator-phone'];
 $select = $_POST['select'];
-$window = $_POST['window'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
@@ -35,7 +34,7 @@ $mail->addAddress('valerakurak344@gmail.com');     // Кому будет ухо
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка с сайта test_html great consult group';
-$mail->Body    =  'Клиент оставил(а) заявку.<br><br> Телефон клиента ' .$phone . '<br><br>Тип: изделия: ' .$window . '<br><br>Ширина: ' .$width . '<br><br>Высота: ' .$height . '<br><br>Критерий: ' .$choice . '<br><br>Открывание створки: ' .$select;
+$mail->Body    =  'Клиент оставил(а) заявку.<br><br> Телефон клиента ' .$phone . '<br><br>Ширина: ' .$width . '<br><br>Высота: ' .$height . '<br><br>Критерий: ' .$choice . '<br><br>Открывание створки: ' .$select;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
