@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="thankyou.css">
     <title>Test</title>
 </head>
 <body>
@@ -30,9 +31,9 @@
             <div class="container">
                 <div class="form">
                     <p class="form__title">Форма с кнопкой</p>
-                    <form action="send.php" method="POST" class="form__content">
+                    <form class="form__content" class="form1" id="form1" name="form1">
                         <p class="form__content--title">Оставь телефон и получи что-то офигенное</p>
-                        <input class="form__content--tel" name="user_phone" type="tel" id="phone" placeholder="Введите номер" class="form-control">
+                        <input required class="form__content--tel" name="user_phone" type="tel" id="phone" placeholder="Введите номер" class="form-control">
                         <input class="form__content--submit" type="submit" value="Получить">
                     </form>
                 </div>
@@ -105,7 +106,7 @@
                             <p class="values__width">ширина, см</p>
                             <p class="values__height">высота, см</p>
                         </div>
-                        <form class="F5__calculator--inputs" action="sendcalculator.php" method="POST">
+                        <form class="F5__calculator--inputs form2" name="form2" id="form2" >
                         <input required name="width" class="values__width--input" type="text" value="120">
                         <p class="values__x">x</p>
                         <input required name="height" class="values__height--input" type="text" value="120">
@@ -150,9 +151,18 @@
         <div class="container">
         <p class="footer__content">просто скромный футер</p>
     </div>
+    <div class="overlay js-overlay-thank-you">
+        <div class="popup js-thank-you">
+            <h2>Спасибо, сообщение отправлено</h2>
+            <div class="close-popup js-close-thank-you"></div>
+        </div>
+    </div>
     </footer>
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="thankyou.js"></script>
+
     <script src="js/script.js"></script>
     <script src="js/jquery.maskedinput.js"></script>
+
 </body>
 </html>
