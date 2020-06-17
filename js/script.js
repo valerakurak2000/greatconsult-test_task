@@ -65,7 +65,6 @@ $(function(){
     $(secondwindowfull).click(function(){
         windowname.textContent = 'Двухстворчатое окно';
         windowimg.setAttribute('src','img/window_2.jpg');
-        windowimg.style.height = '193px';
         firstwindow.style.color = '#000000';
         firstwindow.style.textDecoration = 'none';
         secondwindow.style.color = '#0099de';
@@ -81,7 +80,6 @@ $(function(){
     $(thirdwindowfull).click(function(){
         windowname.textContent = 'Трехстворчатое окно';
         windowimg.setAttribute('src','img/window_3.jpg');
-        windowimg.style.height = '193px';
         firstwindow.style.color = '#000000';
         firstwindow.style.textDecoration = 'none';
         secondwindow.style.color = '#000000';
@@ -97,7 +95,6 @@ $(function(){
     $(fourthwindowfull).click(function(){
         windowname.textContent = 'Балконный блок';
         windowimg.setAttribute('src','img/window_4.jpg');
-        windowimg.style.height = '193px';
         firstwindow.style.color = '#000000';
         firstwindow.style.textDecoration = 'none';
         secondwindow.style.color = '#000000';
@@ -113,7 +110,6 @@ $(function(){
     $(fifthwindowfull).click(function(){
         windowname.textContent = 'Остекление балкона';
         windowimg.setAttribute('src','img/window_5.jpg');
-        windowimg.style.height = '193px';
         firstwindow.style.color = '#000000';
         firstwindow.style.textDecoration = 'none';
         secondwindow.style.color = '#000000';

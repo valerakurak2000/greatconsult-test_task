@@ -597,10 +597,15 @@ align-items: center;
 
 @media (max-width:576px) {
     .container {
-        width: 90%;
+        width: 80%;
     }
     .slider__img {
-        width: 518px;
+        width: 432px;
+    }
+    .form__content {
+        width: 432px;
+        margin: 10px auto 0px;
+        text-align: center;
     }
     .F5__calculator--height {
         margin-left: 0;
@@ -612,11 +617,13 @@ align-items: center;
     .values__width--input {
         margin-left: 20px;
     }
-    .F5__calculator--left-bar {
-        width: 49%;
+    .F5__calculator--left-bar,
+    .F5__calculator--right-bar {
+        width: 100%;
     }
     .F5__calculator {
-        background-size: 518px 524px;
+        background-size: 445px 960px;
+        height: 960px;
     }
     .values__height--input,
     .values__width--input {
@@ -627,14 +634,7 @@ align-items: center;
         font-size: 40px;
     }
     .F1_header__contacts-number {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 480px) {
-    .slider__img,
-    .form__content {
-        width: 431px;
+        font-size: 26px;
     }
     .F5__window--first,
     .F5__window--second,
@@ -643,6 +643,30 @@ align-items: center;
     .F5__window--fifth {
         width: 50%;
     }
+    .bottom__bar--phone-number,
+    .bottom__bar--submit {
+        width: 180px;
+        margin-left: 0;
+    }
+    .bottom__bar--phone-number {
+        padding-left: 55px;
+        font-size: 16px;
+    }
+    .form__title {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+    .slider__img,
+    .form__content {
+        width: 431px;
+    }
+
     .form {
         text-align: center;
     }
@@ -659,14 +683,6 @@ align-items: center;
     .F5__calculator {
         background-size:431px 960px;
         height: 960px;
-    }
-    .F5__calculator--left-bar,
-    .F5__calculator--right-bar {
-        width: 100%;
-    }
-    .bottom__bar--phone-number,
-    .bottom__bar--submit {
-        width: 180px;
     }
     .bottom__bar--phone-number {
         font-size: 16px;
